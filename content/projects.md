@@ -5,7 +5,7 @@ slug = "projects"
 
 I have created, contributed to and participated in many small projects. Here are some projects I'm proud of:
 
-- *Crave AOSP Builder*: 
+### *Crave AOSP Builder*: 
 
 Build Full Android ROMs - With Github Actions(Powered by Crave.io)
 
@@ -17,7 +17,7 @@ Here, I have made a github actions workflow to interface with crave - without an
 
 [Project Link](https://github.com/sounddrill31/crave_aosp_builder)
 
-- *OpenDroid Wiki*:
+### *OpenDroid Wiki*:
 
 Building android is very complex, needing a lot of expertise, calmness of mind, and a non-insignificant understanding of how these devices function. 
 
@@ -29,7 +29,7 @@ I contributed to early documentation(especially helping with Crave.io related do
 
 [Content Source for Documentation](https://github.com/opendroid-project/docs)
 
-- *SM64-PS2*: 
+### *SM64-PS2*: 
 
 This project aims to port Super Mario 64 to the PlayStation 2, after it was decompiled. 
 
@@ -41,7 +41,7 @@ The upstream repo seems to have fixed this issue, but when I tried it, my save g
 
 [Source Code](https://github.com/sounddrill31/sm64-port)
 
-- *Checkpost-Arduino*:
+### *Checkpost-Arduino*:
 
 A simple arduino checkpost project, for a friend. Original code is from @SimpleCircuits, where I reposted and relicensed with permission. 
 
@@ -49,7 +49,7 @@ I fixed up the code and helped out with setting it up
 
 [Source Code](https://github.com/sounddrill31/Checkpost-Arduino)
 
-- *Turbo C++*: 
+### *Turbo C++ Web*: 
 
 Turbo C++ is quite widely used in the academic side in India, for some weird reason. I used JS-DOS's [Bundle Creation tool](https://dos.zone/studio/) and packaged @AvinashReddy3108's [TurboCPP4Linux](TurboCPP4Linux) with it to make a simple web wrapper for it
 
