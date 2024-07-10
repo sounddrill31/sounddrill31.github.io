@@ -11,10 +11,10 @@ style = "github-light"
 
 [params]
   author = "Souhrud Reddy"
-  info = "Student by day, Hobbyist Developer at night"
+  info = "Student by day, Hobbyist Developer by night"
   description = "Souhrud's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.png"
+  #avatarurl = "images/avatar.png"
   #gravatar = "souhrud@live.com"
 
   faviconSVG = "/img/favicon.svg"
