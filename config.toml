@@ -65,3 +65,8 @@ url = "projects/"
 name = "Contact me"
 weight = 3
 url = "contact/"
+
+[[menu.main]]
+name = "Turbo C++"
+weight = 4
+url = "TurboCPP-Web/"
