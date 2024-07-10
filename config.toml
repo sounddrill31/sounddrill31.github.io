@@ -1,5 +1,5 @@
 baseurl = "https://sounddrill31.github.io"
-title = "My Personal Website"
+title = "Souhrud's Website"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -7,14 +7,14 @@ defaultcontentlanguage = "en"
 paginate = 20
 
 [markup.highlight]
-style = "github-dark"
+style = "github-light"
 
 [params]
   author = "Souhrud Reddy"
   info = "Student by day, Hobbyist Developer at night"
   description = "Souhrud's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "images/avatar.png"
   #gravatar = "souhrud@live.com"
 
   faviconSVG = "/img/favicon.svg"
