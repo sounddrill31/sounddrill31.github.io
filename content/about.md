@@ -11,7 +11,7 @@ author = "Souhrud Reddy"
 I am an aspiring developer from Bangalore.
 
 ## Academics:
-- I have pursued CBSE till grade 7, where I moved to Bengaluru(and ICSE)
+- I have pursued CBSE till grade 7, where I moved to Bengaluru(and ICSE), and finished my 10th and 12th Through NIOS
 - I am currently pursuing BCA from from a nearby college called Gopalan College of Commerce
 - I am also attempting to get into IIT-M's online BS Electronics Systems course
 
