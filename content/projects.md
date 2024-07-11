@@ -58,3 +58,19 @@ This is only a proof of concept and it's not very usable because quotes don't wo
 [Demo](https://sounddrill31.github.io/TurboCPP-Web)
 
 [Source Code](https://github.com/sounddrill31/TurboCPP-Web)
+
+
+Also made a similar one for Norton Editor Web
+
+[Demo](https://sounddrill31.github.io/NortonEditor-Web/)
+
+[Source Code](https://github.com/sounddrill31/NortonEditor-Web)
+
+
+### *Floorp OBS Workflow*:
+
+OpenSUSE's repos didn't seem to have floorp browser so I made a repo that checks github releases regularly and repackages them for OBS. It's very rough around the edges but it works great even tho I haven't touched it in months.
+
+[Repository](https://software.opensuse.org//download.html?project=home%3Asounddrill&package=floorp-browser)
+
+[Source Code](https://github.com/sounddrill31/floorp-browser-obs)
