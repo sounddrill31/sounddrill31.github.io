@@ -17,6 +17,26 @@ Here, I have made a github actions workflow to interface with crave - without an
 
 [Project Link](https://github.com/sounddrill31/crave_aosp_builder)
 
+### *Local Manifest Generator*:
+
+Generates and Uploads Local Manifests in xml format for use with google's repo tool. Also triggers workflow to test these Local Manifests against the ROM manifest to catch little errors early on.
+
+These local manifests are used alongside ROM Manifests to clone device-specific sources alongside the ROM's source code in one go.
+
+[Project Link](https://github.com/sounddrill31/actions_generate_local_manifests)
+
+[Example Inputs](https://github.com/sounddrill31/actions_generate_local_manifests/blob/edf2cea2b973c793ae71d51a1c6c9d4a6f43b6be/oxygen.txt)
+
+[Example Outputs](https://github.com/sounddrill31/local_manifests_oxygen/blob/d9bb0dc29b01c826ac582ae87ba43daa629ccbd5/local_manifests.xml)
+
+### *Manifest Tester*:
+
+Simple Workflow to run a short repo sync command so that we can test our ROM and Local Manifest files to catch little errors early on instead of after waiting 3-6 hours in queue for the build. 
+
+(Also integrated into Crave AOSP Builder)
+
+[Project Link](https://github.com/sounddrill31/Manifest_Tester)
+
 ### *OpenDroid Wiki*:
 
 Building android is very complex, needing a lot of expertise, calmness of mind, and a non-insignificant understanding of how these devices function. 
@@ -73,4 +93,5 @@ OpenSUSE's repos didn't seem to have floorp browser so I made a repo that checks
 
 [Repository](https://software.opensuse.org//download.html?project=home%3Asounddrill&package=floorp-browser)
 
+### 
 [Source Code](https://github.com/sounddrill31/floorp-browser-obs)
