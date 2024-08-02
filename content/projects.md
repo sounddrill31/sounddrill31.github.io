@@ -51,7 +51,7 @@ I contributed to early documentation(especially helping with Crave.io related do
 
 ### *Action Gradle Builder*:
 
-Quickly build android apks, from source. Quite useful for testing and debugging or for one-off builds.
+Quickly build android apks, from source, leveraging github actions. Quite useful for testing and debugging or for one-off builds.
 
 [Project Link](https://github.com/sounddrill31/action-gradle-builder)
 
