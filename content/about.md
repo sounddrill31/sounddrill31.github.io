@@ -35,7 +35,7 @@ You can see more of it over on the [projects page](https://sounddrill31.github.i
 I have positively contributed to these large and small communities in a meaningful way:
 * Crave.io: Helped with community tools, answering questions, creating documentation, etc. I maintain a bridge from there to ROM Builders telegram using matterbridge.
 * NIOS Students: Created an unofficial discord server for helping students get information and assist them with the process. Also worked on recent helper website.
-* XDA: Briefly helped out new users with unbricking devices and installing custom aftermarket flavors of android.
+* XDA: Briefly helped out new users with unbricking devices and installing custom aftermarket flavors of android, even reaching "Legendary" role which is measured based on community interactions.
 * Otaku Discord: Helped moderate and overhaul [TheInternationalOtaku](https://www.twitch.tv/theinternationalotaku)'s discord and met many cool people there.
 * Xonotic India: Created "The Server Bay" discord server with proper game chat bridges(MelanoBot and MatterBridge) for gathering Indian OSS Gaming Enthusiasts together. 
 
