@@ -92,6 +92,11 @@ Also made a similar one for Norton Editor Web
 
 [Source Code](https://github.com/sounddrill31/NortonEditor-Web)
 
+Also made a similar one for Costa GUI Web
+
+[Demo](https://sounddrill31.github.io/Costa-Web/)
+
+[Source Code](https://github.com/sounddrill31/Costa-Web)
 
 ### *Floorp OBS Workflow*:
 
