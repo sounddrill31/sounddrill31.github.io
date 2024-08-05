@@ -77,7 +77,7 @@ I fixed up the code and helped out with setting it up
 
 ### *Turbo C++ Web*: 
 
-Turbo C++ is quite widely used in the academic side in India, for some weird reason. I used JS-DOS's [Bundle Creation tool](https://dos.zone/studio/) and packaged @AvinashReddy3108's [TurboCPP4Linux](TurboCPP4Linux) with it to make a simple web wrapper for it
+Turbo C++ is quite widely used in the academic side in India, for some weird reason. I used JS-DOS's [Bundle Creation tool](https://dos.zone/studio-v8) and packaged @AvinashReddy3108's [TurboCPP4Linux](TurboCPP4Linux) with it to make a simple web wrapper for it
 
 This is only a proof of concept and it's not very usable because quotes don't work on firefox/edge
 
