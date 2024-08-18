@@ -1,9 +1,19 @@
-+++
+3+++
 title = "Projects"
 slug = "projects"
 +++
 
-I have created, contributed to and participated in many small projects. Here are some projects I'm proud of:
+I have created, contributed to and participated in many small projects. Here are some projects I'm proud of
+
+### *UPI Viewer*: 
+
+A simple frontend for a UPI Powered Point of Sale System - Without using any external services or APIs!
+
+Written in Kotlin, it makes phones as old as Android 4.2 into a fully functional minimal Point of Sale machine with features like "Dynamic QR Generator", " Split the Bill" mode, etc. 
+
+[Project Link](https://github.com/zeusinstitute-oss/UPI-Viewer)
+
+This is ZeusInstitute OSS's first big project. I want to try to get it on F-Droid after alpha and try to get it on Play Store after stable release. I regularly post updates on both [linkedin](https://linkedin.com/in/souhrud-reddy) and [my fediverse profile](https://infosec.exchange/@sounddrill)
 
 ### *Crave AOSP Builder*: 
 
