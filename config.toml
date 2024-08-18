@@ -49,6 +49,11 @@ style = "github-light"
   icon = "fa-brands fa-mastodon fa-2x"
   weight = 3
   url = "https://infosec.exchange/@sounddrill/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/souhrud-reddy/"
 
 # Menu links
 [[menu.main]]
