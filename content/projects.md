@@ -13,6 +13,8 @@ Written in Kotlin, it makes phones as old as Android 4.2 into a fully functional
 
 [Project Link](https://github.com/zeusinstitute-oss/UPI-Viewer)
 
+[Website](https://upi.zeusinstitute.com/)
+
 This is ZeusInstitute OSS's first big project. I want to try to get it on F-Droid after alpha and try to get it on Play Store after stable release. I regularly post updates on both [linkedin](https://linkedin.com/in/souhrud-reddy) and [my fediverse profile](https://infosec.exchange/@sounddrill)
 
 ### *Crave AOSP Builder*: 
