@@ -17,6 +17,17 @@ Written in Kotlin, it makes phones as old as Android 4.2 into a fully functional
 
 This is ZeusInstitute OSS's first big project. I want to try to get it on F-Droid after alpha and try to get it on Play Store after stable release. I regularly post updates on both [linkedin](https://linkedin.com/in/souhrud-reddy) and [my fediverse profile](https://infosec.exchange/@sounddrill)
 
+### *GPS Picture*:
+A simple android camera app that overlays Location and date on the picture. There is a real need for this, especially in educational institutions to verify that sessions were actually conducted, and on time. 
+
+Only apps that worked that met these needs were closed source apps with very annoying intrusive ads, so I wanted to make my own.
+
+[Project Link](https://github.com/zeusinstitute-oss/GPSPic)
+
+[Website](https://gps.zeusinstitute.com/)
+
+This is ZeusInstitute OSS's second big project.
+
 ### *Crave AOSP Builder*: 
 
 Build Full Android ROMs - With Github Actions(Powered by Crave.io)
