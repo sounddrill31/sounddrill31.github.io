@@ -37,22 +37,29 @@ function setupDarkMode() {
         return;
     }
     const body = document.body;
+    const icon = darkModeToggle.querySelector('i');
+
+    function setDarkMode(isDark) {
+        body.classList.toggle('dark-mode', isDark);
+        icon.classList.toggle('fa-moon', !isDark);
+        icon.classList.toggle('fa-sun', isDark);
+        localStorage.setItem('darkMode', isDark);
+    }
 
     darkModeToggle.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
+        const isDark = !body.classList.contains('dark-mode');
+        setDarkMode(isDark);
     });
 
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        body.classList.add('dark-mode');
+    const storedDarkMode = localStorage.getItem('darkMode');
+    if (storedDarkMode !== null) {
+        setDarkMode(storedDarkMode === 'true');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        setDarkMode(true);
     }
 
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-        if (e.matches) {
-            body.classList.add('dark-mode');
-        } else {
-            body.classList.remove('dark-mode');
-        }
+        setDarkMode(e.matches);
     });
 }
 
@@ -68,6 +75,9 @@ async function loadContent(file) {
 
     const socialIcons = generateSocialIcons(markdown);
     content.insertAdjacentHTML('beforeend', socialIcons);
+
+    setupSmoothScrolling();
+    loadProjectsPreview(markdown);
 }
 
 function generateSocialIcons(markdown) {
@@ -77,7 +87,7 @@ function generateSocialIcons(markdown) {
 
     while ((match = socialIconRegex.exec(markdown)) !== null) {
         const [, platform, url] = match;
-        icons += `<a href="${url}" target="_blank" rel="noopener noreferrer"><i class="fab fa-${platform}"></i></a>`;
+        icons += `<a href="${url}" target="_blank" rel="noopener noreferrer"><i class="fab fa-${platform.toLowerCase()}"></i></a>`;
     }
 
     icons += '</div>';
@@ -91,7 +101,7 @@ async function generateMenu() {
         return;
     }
     const markdown = await fetchMarkdownContent('./content/index.md');
-    const menuItemRegex = /## (.+)/g;
+    const menuItemRegex = /^## (.+)/gm;
     let match;
 
     while ((match = menuItemRegex.exec(markdown)) !== null) {
@@ -99,16 +109,53 @@ async function generateMenu() {
         const link = document.createElement('a');
         link.textContent = menuItem;
         link.href = `#${menuItem.toLowerCase().replace(/\s+/g, '-')}`;
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const targetId = e.target.getAttribute('href').slice(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth' });
-            }
-        });
         nav.appendChild(link);
     }
+}
+
+function setupSmoothScrolling() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+}
+
+function loadProjectsPreview(markdown) {
+    const projectsRegex = /### (.+)\n\n(.+)/g;
+    let match;
+    const projects = [];
+    const carousel = document.querySelector('.projects-carousel');
+
+    while ((match = projectsRegex.exec(markdown)) !== null && projects.length < 3) {
+        const [, title, description] = match;
+        projects.push({ title, description });
+    }
+
+    projects.forEach(project => {
+        const projectElement = document.createElement('div');
+        projectElement.className = 'project-item';
+        projectElement.innerHTML = `
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+        `;
+        carousel.appendChild(projectElement);
+    });
+
+    $(carousel).slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
 }
 
 async function init() {

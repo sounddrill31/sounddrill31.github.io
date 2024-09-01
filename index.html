@@ -3,20 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Souhrud Reddy - Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Souhrud Reddy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 <body>
     <header>
-        <nav id="main-nav">
-            <a href="#" id="home-button">Home</a>
-            <!-- Dynamically populated menu items will go here -->
-        </nav>
+        <a href="#" id="home-button">Home</a>
+        <nav id="main-nav"></nav>
         <button id="dark-mode-toggle">
             <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
         </button>
     </header>
 
@@ -25,14 +23,21 @@
         <p id="tagline">Student by day, Hobbyist Developer by night</p>
     </div>
 
-    <main id="content">
-        <!-- Content will be dynamically loaded here -->
-    </main>
+    <main id="content" role="main"></main>
+
+    <section id="projects-preview">
+        <h2>Latest Projects</h2>
+        <div class="projects-carousel">
+            <!-- Project items will be dynamically added here -->
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Souhrud Reddy. All rights reserved.</p>
+        © 2023 Souhrud Reddy. All rights reserved.
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
