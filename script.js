@@ -73,25 +73,22 @@ async function loadContent(file) {
     const rendered = await renderMarkdown(markdown);
     content.innerHTML = rendered;
 
-    const socialIcons = generateSocialIcons(markdown);
-    content.insertAdjacentHTML('beforeend', socialIcons);
-
+    generateSocialIcons(markdown);
     setupSmoothScrolling();
-    loadProjectsPreview(markdown);
 }
 
 function generateSocialIcons(markdown) {
     const socialIconRegex = /\[SOCIAL_ICON\](\w+):(\S+)/g;
     let match;
-    let icons = '<div class="social-icons">';
+    let icons = '';
+    const socialIconsContainer = document.getElementById('social-icons');
 
     while ((match = socialIconRegex.exec(markdown)) !== null) {
         const [, platform, url] = match;
         icons += `<a href="${url}" target="_blank" rel="noopener noreferrer"><i class="fab fa-${platform.toLowerCase()}"></i></a>`;
     }
 
-    icons += '</div>';
-    return icons;
+    socialIconsContainer.innerHTML = icons;
 }
 
 async function generateMenu() {
@@ -128,49 +125,11 @@ function setupSmoothScrolling() {
     });
 }
 
-function loadProjectsPreview(markdown) {
-    const projectsRegex = /### (.+)\n\n(.+)/g;
-    let match;
-    const projects = [];
-    const carousel = document.querySelector('.projects-carousel');
-
-    while ((match = projectsRegex.exec(markdown)) !== null && projects.length < 3) {
-        const [, title, description] = match;
-        projects.push({ title, description });
-    }
-
-    projects.forEach(project => {
-        const projectElement = document.createElement('div');
-        projectElement.className = 'project-item';
-        projectElement.innerHTML = `
-            <h3>${project.title}</h3>
-            <p>${project.description}</p>
-        `;
-        carousel.appendChild(projectElement);
-    });
-
-    $(carousel).slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true
-    });
-}
-
 async function init() {
     try {
         setupDarkMode();
         await generateMenu();
         await loadContent('./content/index.md');
-        
-        const homeButton = document.getElementById('home-button');
-        if (homeButton) {
-            homeButton.addEventListener('click', (e) => {
-                e.preventDefault();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        }
     } catch (error) {
         console.error("Initialization error:", error);
     }
