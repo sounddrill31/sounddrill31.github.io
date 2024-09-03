@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dos on Souhrud&#39;s Website</title>
+    <link>http://localhost:1313/tags/dos/</link>
+    <description>Recent content in Dos on Souhrud&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/dos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Action Projects</title>
+      <link>http://localhost:1313/posts/gh-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gh-actions/</guid>
+      <description>I have made a few useful github actions workflows to make my life easier and to help people:&#xA;Crave AOSP Builder: Build Full Android ROMs - With Github Actions(Powered by Crave.io)&#xA;Android is usually very big - 250 to 450GB worth of source code, needs 64GB of memory for seamless compilation, etc.&#xA;While not everyone has those resources, Crave.io provides build systems to improve this, allowing anyone to learn android building.</description>
+    </item>
+    <item>
+      <title>Web Dos Experiments</title>
+      <link>http://localhost:1313/posts/web-dos-exp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/web-dos-exp/</guid>
+      <description>Turbo C++ is quite widely used in the academic side in India, for some weird reason. I used JS-DOS&amp;rsquo;s Bundle Creation tool and packaged @AvinashReddy3108&amp;rsquo;s TurboCPP4Linux with it to make a simple web wrapper for it&#xA;This is only a proof of concept and it&amp;rsquo;s not very usable because quotes don&amp;rsquo;t work on firefox/edge&#xA;Demo&#xA;Source Code&#xA;Also made a similar one for Norton Editor Web:&#xA;Demo&#xA;Source Code&#xA;Also made a similar one for Costa GUI Web:</description>
+    </item>
+  </channel>
+</rss>

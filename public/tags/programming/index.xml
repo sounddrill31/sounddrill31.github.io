@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Souhrud&#39;s Website</title>
+    <link>http://localhost:1313/tags/programming/</link>
+    <description>Recent content in Programming on Souhrud&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App Development</title>
+      <link>http://localhost:1313/posts/app-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/app-dev/</guid>
+      <description>UPI Viewer: A simple frontend for a UPI Powered Point of Sale System - Without using any external services or APIs!&#xA;Written in Kotlin, it makes phones as old as Android 4.2 into a fully functional minimal Point of Sale machine with features like &amp;ldquo;Dynamic QR Generator&amp;rdquo;, &amp;quot; Split the Bill&amp;quot; mode, etc.&#xA;Project Link&#xA;Website&#xA;This is ZeusInstitute OSS&amp;rsquo;s first big project. I want to try to get it on F-Droid after alpha and try to get it on Play Store after stable release.</description>
+    </item>
+    <item>
+      <title>Hobbyist Electronics</title>
+      <link>http://localhost:1313/posts/electronics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/electronics/</guid>
+      <description>Checkpost Arduino: A simple arduino checkpost project, for a friend. Original code is from @SimpleCircuits, where I reposted and relicensed with permission.&#xA;I fixed up the code and helped out with setting it up&#xA;Source Code</description>
+    </item>
+  </channel>
+</rss>

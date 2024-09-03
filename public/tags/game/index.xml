@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game on Souhrud&#39;s Website</title>
+    <link>http://localhost:1313/tags/game/</link>
+    <description>Recent content in Game on Souhrud&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Super Mario 64 - ps2 (Fork)</title>
+      <link>http://localhost:1313/posts/sm64-ps2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sm64-ps2/</guid>
+      <description>This project aims to port Super Mario 64 to the PlayStation 2, after it was decompiled.&#xA;For a while, it refused to work on recent sdk versions on real hardware, despite improving performance.&#xA;Made a few tweaks as suggested by @metchebe and @xdccrlz here and maintained it for a while. Also made a helper script to package it into an iso for easy OpenPS2Loader use!&#xA;The upstream repo seems to have fixed this issue, but when I tried it, my save got wiped :(</description>
+    </item>
+  </channel>
+</rss>

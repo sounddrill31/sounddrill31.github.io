@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suse on Souhrud&#39;s Website</title>
+    <link>http://localhost:1313/tags/suse/</link>
+    <description>Recent content in Suse on Souhrud&#39;s Website</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/suse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floorp OBS Workflow</title>
+      <link>http://localhost:1313/posts/floorp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/floorp/</guid>
+      <description>OpenSUSE&amp;rsquo;s repos didn&amp;rsquo;t seem to have floorp browser so I made a repo that checks github releases regularly and repackages them for OBS. It&amp;rsquo;s very rough around the edges but it works great even tho I haven&amp;rsquo;t touched it in months.&#xA;Repository&#xA;Source Code</description>
+    </item>
+  </channel>
+</rss>
