@@ -62,7 +62,7 @@
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>I have created, contributed to and participated in many small projects. Here are some projects I&amp;rsquo;m proud of:</description>
+      <description>I have created, contributed to and participated in many small projects. Here are some projects I&amp;rsquo;m proud of:&#xA;{{ range where .Site.Pages &amp;ldquo;Type&amp;rdquo; &amp;ldquo;post&amp;rdquo; }} {{ if in .Params.categories &amp;ldquo;projects&amp;rdquo; }} * [{{ .Title }}]({{ .Permalink }}) {{ end }} {{ end }}</description>
     </item>
     <item>
       <title>Super Mario 64 - ps2 (Fork)</title>
