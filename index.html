@@ -4,35 +4,266 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Souhrud Reddy - Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --bg-light: #f5f7fa;
+            --text-light: #2c3e50;
+            --header-light: #2c3e50;
+            --bg-dark: #1a1a2e;
+            --text-dark: #e0e0e0;
+            --header-dark: #16213e;
+            --accent-light: #3498db;
+            --accent-dark: #4db5ff;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: var(--bg-light);
+            color: var(--text-light);
+        }
+
+        body.dark-mode {
+            background-color: var(--bg-dark);
+            color: var(--text-dark);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        #header {
+            background-color: var(--header-light);
+            color: #ecf0f1;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s;
+        }
+
+        body.dark-mode #header {
+            background-color: var(--header-dark);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-and-icons {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .name-and-icons h1 {
+            margin: 0 0 10px 0;
+            font-size: 1.5rem;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #ecf0f1;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--accent-light);
+        }
+
+        body.dark-mode .social-icons a:hover {
+            color: var(--accent-dark);
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .menu a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s;
+        }
+
+        .menu a:hover {
+            color: var(--accent-light);
+        }
+
+        body.dark-mode .menu a:hover {
+            color: var(--accent-dark);
+        }
+
+        .content {
+            margin-top: 120px;
+            padding: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+
+        .content.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .theme-switch {
+            background: none;
+            border: none;
+            color: #ecf0f1;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .theme-switch:hover {
+            color: var(--accent-light);
+        }
+
+        body.dark-mode .theme-switch:hover {
+            color: var(--accent-dark);
+        }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #ecf0f1;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .menu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: var(--header-light);
+                width: 200px;
+                padding: 20px;
+            }
+
+            body.dark-mode .menu {
+                background-color: var(--header-dark);
+            }
+
+            .menu.active {
+                display: flex;
+            }
+
+            .menu a {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav id="main-nav">
-            <a href="#" id="home-button">Home</a>
-            <!-- Dynamically populated menu items will go here -->
-        </nav>
-        <button id="dark-mode-toggle">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-        </button>
+    <header id="header">
+        <div class="container header-content">
+            <div class="name-and-icons">
+                <h1>Souhrud Reddy</h1>
+                <div class="social-icons">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-mastodon"></i></a>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Projects</a>
+                <button id="themeSwitch" class="theme-switch"><i class="fas fa-moon"></i></button>
+            </nav>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
     </header>
 
-    <div id="embed">
-        <img src="./favicon.ico" alt="Favicon" id="favicon-embed">
-        <p id="tagline">Student by day, Hobbyist Developer by night</p>
+    <div class="container" role="main">
+        <div class="content">
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>Hey there! I'm Souhrud, a passionate student developer with an insatiable curiosity for all things tech. By day, I'm diving deep into my studies, absorbing knowledge like a sponge. But when the sun sets, that's when the real magic happens -- I transform into a coding enthusiast, bringing my wildest ideas to life through lines of code.</p>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>When I'm not glued to my computer screen, you might find me brainstorming my next big project, contributing to open-source initiatives, or engaging in lively debates about the latest tech trends. I believe in the power of technology to shape our future, and I'm excited to be part of that journey.</p>
+                <p>Feel free to reach out to me through any of the social media platforms linked above or via email at souhrud@example.com.</p>
+            </section>
+        </div>
     </div>
 
-    <main id="content">
-        <!-- Content will be dynamically loaded here -->
-    </main>
+    <script>
+        const themeSwitch = document.getElementById('themeSwitch');
+        const body = document.body;
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.menu');
+        const sections = document.querySelectorAll('.section');
 
-    <footer>
-        <p>&copy; 2023 Souhrud Reddy. All rights reserved.</p>
-    </footer>
+        // Theme switching
+        function setTheme(isDark) {
+            body.classList.toggle('dark-mode', isDark);
+            themeSwitch.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+            localStorage.setItem('darkMode', isDark);
+        }
 
-    <script src="./script.js"></script>
+        // Check system preference
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        const currentTheme = localStorage.getItem('darkMode');
+
+        if (currentTheme === 'true' || (currentTheme === null && prefersDarkScheme.matches)) {
+            setTheme(true);
+        }
+
+        themeSwitch.addEventListener('click', () => setTheme(!body.classList.contains('dark-mode')));
+
+        // Responsive menu
+        menuToggle.addEventListener('click', () => menu.classList.toggle('active'));
+
+        // Scroll animation
+        function checkScroll() {
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (sectionTop < windowHeight * 0.75) {
+                    section.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkScroll);
+        checkScroll(); // Check on load
+    </script>
 </body>
 </html>
