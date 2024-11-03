@@ -74,4 +74,4 @@ url = "contact/"
 [[menu.main]]
 name = "Turbo C++"
 weight = 4
-url = "TurboCPP-Web/"
+url = "https://turboc.pages.dev"

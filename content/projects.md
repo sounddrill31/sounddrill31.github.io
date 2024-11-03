@@ -104,7 +104,7 @@ Turbo C++ is quite widely used in the academic side in India, for some weird rea
 
 This is only a proof of concept and it's not very usable because quotes don't work on firefox/edge
 
-[Demo](https://sounddrill31.github.io/TurboCPP-Web)
+[Demo](https://turboc.pages.dev)
 
 [Source Code](https://github.com/sounddrill31/TurboCPP-Web)
 
