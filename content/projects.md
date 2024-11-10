@@ -5,6 +5,16 @@ slug = "projects"
 
 I have created, contributed to and participated in many small projects. Here are some projects I'm proud of
 
+### *VowelCountApp*:
+
+A simple app with a simple use: To count the number of vowels in a string entered by the user.
+
+I made this with AvaloniaUI to experiment with modern C# frameworks. It's written in C# and styled with XAML.
+
+It is also Cross Platform with builds available for Windows, Linux(x11/xWayland) and Android.
+
+[Project Source](https://github.com/sounddrill31/VowelCountApp_CrossPlatform)
+
 ### *UPI Viewer*: 
 
 A simple frontend for a UPI Powered Point of Sale System - Without using any external services or APIs!
