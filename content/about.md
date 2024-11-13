@@ -16,9 +16,10 @@ I am an aspiring developer from Bangalore.
 - I am also attempting to get into IIT-M's online BS Electronics Systems course
 
 ## Maintaining:
-- A Xonotic Server and A Minecraft Server(Chat bridged to [discord](discord.gg/invite/Ws5NEF9sFw))
+- A Xonotic Server(Chat bridged to [discord](discord.gg/invite/Ws5NEF9sFw))
+- ~~A Minecraft Server(Chat bridged to [discord](discord.gg/invite/Ws5NEF9sFw))~~ Offline, removed on Nov 2024
 - Personal HestiaCP server
-- social.azcyouth.in
+- ~~social.azcyouth.in~~ Offline, removed on Nov 2024
 - Discord <-> Telegram Chat Bridge connecting Crave.io discord to ROM Builders telegram using MatterBridge
 - A [community package](https://github.com/sounddrill31/floorp-browser-obs) for Floorp Browser on openSUSE's OBS Repos that updates itself
 
