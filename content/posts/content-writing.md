@@ -1,6 +1,6 @@
 ---
 title: "Content Writing"
-# date: 2024-09-03T21:13:00+5:30
+date: 2024-09-03
 tags: ["aosp", "web", "content"]
 categories: ["projects", "content"]
 series: ["Projects"]

@@ -1,6 +1,6 @@
 ---
 title: "App Development"
-# date: 2024-09-03T21:18:00+5:30
+date: 2024-09-03
 tags: ["android", "app", "programming"]
 categories: ["projects", "app"]
 series: ["Projects"]

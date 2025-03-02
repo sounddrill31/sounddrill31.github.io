@@ -1,6 +1,6 @@
 ---
 title: "Github Action Projects"
-# date: 2024-09-03T21:10:00+5:30
+date: 2024-09-03
 tags: ["dos", "web", "github-pages"]
 categories: ["projects", "websites"]
 series: ["Projects"]

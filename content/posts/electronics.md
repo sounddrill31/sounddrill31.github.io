@@ -1,6 +1,6 @@
 ---
 title: "Hobbyist Electronics"
-# date: 2024-09-03T21:03:00+5:30
+date: 2024-09-03
 tags: ["electronics", "programming"]
 categories: ["projects", "hardware"]
 series: ["Projects"]

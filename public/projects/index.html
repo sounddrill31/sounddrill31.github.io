@@ -13,25 +13,18 @@
 
 
 <meta name="author" content="Souhrud Reddy">
-<meta name="description" content="I have created, contributed to and participated in many small projects. Here are some projects I&rsquo;m proud of:
-{{ range where .Site.Pages &ldquo;Type&rdquo; &ldquo;post&rdquo; }}
-{{ if in .Params.categories &ldquo;projects&rdquo; }}
-* [{{ .Title }}]({{ .Permalink }})
-{{ end }}
-{{ end }}">
+<meta name="description" content="I have created, contributed to and participated in many small projects. Here are some projects I&rsquo;m proud of:">
 <meta name="keywords" content="blog,developer,personal">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Projects">
-  <meta name="twitter:description" content="I have created, contributed to and participated in many small projects. Here are some projects I’m proud of:
-{{ range where .Site.Pages “Type” “post” }} {{ if in .Params.categories “projects” }} * [{{ .Title }}]({{ .Permalink }}) {{ end }} {{ end }}">
+  <meta name="twitter:description" content="I have created, contributed to and participated in many small projects. Here are some projects I’m proud of:">
 
 <meta property="og:url" content="http://localhost:1313/projects/">
   <meta property="og:site_name" content="Souhrud&#39;s Website">
   <meta property="og:title" content="Projects">
-  <meta property="og:description" content="I have created, contributed to and participated in many small projects. Here are some projects I’m proud of:
-{{ range where .Site.Pages “Type” “post” }} {{ if in .Params.categories “projects” }} * [{{ .Title }}]({{ .Permalink }}) {{ end }} {{ end }}">
+  <meta property="og:description" content="I have created, contributed to and participated in many small projects. Here are some projects I’m proud of:">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
 
@@ -123,7 +116,7 @@
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/projects/">Projects</a>
+              <a class="navigation-link " href="/posts/">Projects</a>
             </li>
           
             <li class="navigation-item">
@@ -155,11 +148,6 @@
     </header>
 
     <p>I have created, contributed to and participated in many small projects. Here are some projects I&rsquo;m proud of:</p>
-<p>{{ range where .Site.Pages &ldquo;Type&rdquo; &ldquo;post&rdquo; }}
-{{ if in .Params.categories &ldquo;projects&rdquo; }}
-* [{{ .Title }}]({{ .Permalink }})
-{{ end }}
-{{ end }}</p>
 
   </article>
 </section>

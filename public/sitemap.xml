@@ -2,84 +2,120 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pixelpulse2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/android/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/aosp/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/app/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/app/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/app-dev/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/content/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/content/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/content-writing/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dos/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/electronics/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/floorp/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/floorp/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/games/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/gh-actions/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github-actions/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github-pages/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/hardware/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/electronics/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mario/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/packages/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/programming/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/projects/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ps2/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/sm64-ps2/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/suse/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/web-dos-exp/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/websites/</loc>
+    <lastmod>2024-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pixelpulse2/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/content/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/content/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/content-writing/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/dos/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/electronics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/floorp/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/floorp/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/game/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/games/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/gh-actions/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/github-actions/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/github-pages/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/hardware/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/electronics/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/mario/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/packages/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/projects/</loc>
-  </url><url>
     <loc>http://localhost:1313/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/projects/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/ps2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/sm64-ps2/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/suse/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/web-dos-exp/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/websites/</loc>
   </url>
 </urlset>
