@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "This page contains more information about me"
-date = "2024-07-10"
+# date = "2024-07-10"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Souhrud Reddy"
 +++

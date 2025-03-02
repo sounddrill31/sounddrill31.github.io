@@ -7,5 +7,54 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App</title>
+      <link>http://localhost:1313/categories/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>http://localhost:1313/categories/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>http://localhost:1313/categories/games/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>http://localhost:1313/categories/hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Packages</title>
+      <link>http://localhost:1313/categories/packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/packages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Websites</title>
+      <link>http://localhost:1313/categories/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/websites/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

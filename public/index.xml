@@ -6,28 +6,83 @@
     <description>Recent content on Souhrud&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pixelpulse2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pixelpulse2/</guid>
+      <description>&lt;p&gt;You&amp;rsquo;re looking for this: &lt;a href=&#34;https://sounddrill31.github.io/Pixelpulse2/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://sounddrill31.github.io/Pixelpulse2/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>I am an aspiring developer from Bangalore.&#xA;I have made/added onto a variety of open source projects including:&#xA;https://github.com/sounddrill31/Checkpost-Arduino https://github.com/sounddrill31/crave_aosp_builder https://github.com/sounddrill31/sm64-port This website is built using Hugo, and uses @luizdepra&amp;rsquo;s Coder theme for the interface.</description>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;&#xA;  About me:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#about-me&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I am an aspiring developer from Bangalore.&lt;/p&gt;&#xA;&lt;h2 id=&#34;academics&#34;&gt;&#xA;  Academics:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#academics&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I have pursued CBSE till grade 7, where I moved to Bengaluru(and ICSE), and finished my 10th and 12th Through NIOS&lt;/li&gt;&#xA;&lt;li&gt;I am currently pursuing BCA from from a nearby college called Gopalan College of Commerce&lt;/li&gt;&#xA;&lt;li&gt;I am also attempting to get into IIT-M&amp;rsquo;s online BS Electronics Systems course&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;maintaining&#34;&gt;&#xA;  Maintaining:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#maintaining&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A Xonotic Server(Chat bridged to &lt;a href=&#34;discord.gg/invite/Ws5NEF9sFw&#34; &gt;discord&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;A Minecraft Server(Chat bridged to &lt;a href=&#34;discord.gg/invite/Ws5NEF9sFw&#34; &gt;discord&lt;/a&gt;)&lt;/del&gt; Offline, removed on Nov 2024&lt;/li&gt;&#xA;&lt;li&gt;Personal HestiaCP server&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;social.azcyouth.in&lt;/del&gt; Offline, removed on Nov 2024&lt;/li&gt;&#xA;&lt;li&gt;Discord &amp;lt;-&amp;gt; Telegram Chat Bridge connecting Crave.io discord to ROM Builders telegram using MatterBridge&lt;/li&gt;&#xA;&lt;li&gt;A &lt;a href=&#34;https://github.com/sounddrill31/floorp-browser-obs&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;community package&lt;/a&gt; for Floorp Browser on openSUSE&amp;rsquo;s OBS Repos that updates itself&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;some-of-my-work&#34;&gt;&#xA;  Some of My Work:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-of-my-work&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I have made/added onto a variety of open source projects including:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>App Development</title>
+      <link>http://localhost:1313/posts/app-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/app-dev/</guid>
+      <description>&lt;h3 id=&#34;upi-viewer&#34;&gt;&#xA;  &lt;em&gt;UPI Viewer&lt;/em&gt;:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#upi-viewer&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A simple frontend for a UPI Powered Point of Sale System - Without using any external services or APIs!&lt;/p&gt;&#xA;&lt;p&gt;Written in Kotlin, it makes phones as old as Android 4.2 into a fully functional minimal Point of Sale machine with features like &amp;ldquo;Dynamic QR Generator&amp;rdquo;, &amp;quot; Split the Bill&amp;quot; mode, etc.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/zeusinstitute-oss/UPI-Viewer&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Project Link&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://upi.zeusinstitute.com/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is ZeusInstitute OSS&amp;rsquo;s first big project. I want to try to get it on F-Droid after alpha and try to get it on Play Store after stable release. I regularly post updates on both &lt;a href=&#34;https://linkedin.com/in/souhrud-reddy&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;linkedin&lt;/a&gt; and &lt;a href=&#34;https://infosec.exchange/@sounddrill&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my fediverse profile&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
-      <description>Feel free to contact me on discord, telegram, mastodon, etc. My username is: @sounddrill&#xA;My email is souhrud@live.com</description>
+      <description>&lt;p&gt;Feel free to contact me on discord, telegram, mastodon, etc. My username is: @sounddrill&lt;/p&gt;&#xA;&lt;p&gt;My email is &lt;a href=&#34;mailto:souhrud@live.com&#34; &gt;souhrud@live.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Content Writing</title>
+      <link>http://localhost:1313/posts/content-writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/content-writing/</guid>
+      <description>&lt;h3 id=&#34;opendroid-wiki&#34;&gt;&#xA;  &lt;em&gt;OpenDroid Wiki&lt;/em&gt;:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#opendroid-wiki&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Building android is very complex, needing a lot of expertise, calmness of mind, and a non-insignificant understanding of how these devices function.&lt;/p&gt;&#xA;&lt;p&gt;I contributed to early documentation(especially helping with Crave.io related documentation) and maintain a good chunk of this at the time of writing.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://opendroid.pugzarecute.com/wiki&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/opendroid-project/docs/commits/master/?author=sounddrill31&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;My Content Contributions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/opendroid-project/docs&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Content Source for Documentation&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Floorp OBS Workflow</title>
+      <link>http://localhost:1313/posts/floorp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/floorp/</guid>
+      <description>&lt;p&gt;OpenSUSE&amp;rsquo;s repos didn&amp;rsquo;t seem to have floorp browser so I made a repo that checks github releases regularly and repackages them for OBS. It&amp;rsquo;s very rough around the edges but it works great even tho I haven&amp;rsquo;t touched it in months.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://software.opensuse.org//download.html?project=home%3Asounddrill&amp;amp;package=floorp-browser&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Repository&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sounddrill31/floorp-browser-obs&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Github Action Projects</title>
+      <link>http://localhost:1313/posts/gh-actions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gh-actions/</guid>
+      <description>&lt;p&gt;I have made a few useful github actions workflows to make my life easier and to help people:&lt;/p&gt;&#xA;&lt;h3 id=&#34;crave-aosp-builder&#34;&gt;&#xA;  &lt;em&gt;Crave AOSP Builder&lt;/em&gt;:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#crave-aosp-builder&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Build Full Android ROMs - With Github Actions(Powered by Crave.io)&lt;/p&gt;&#xA;&lt;p&gt;Android is usually very big - 250 to 450GB worth of source code, needs 64GB of memory for seamless compilation, etc.&lt;/p&gt;&#xA;&lt;p&gt;While not everyone has those resources, &lt;a href=&#34;https://crave.io&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crave.io&lt;/a&gt; provides build systems to improve this, allowing anyone to learn android building.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hobbyist Electronics</title>
+      <link>http://localhost:1313/posts/electronics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/electronics/</guid>
+      <description>&lt;h3 id=&#34;checkpost-arduino&#34;&gt;&#xA;  &lt;em&gt;Checkpost Arduino&lt;/em&gt;:&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#checkpost-arduino&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;A simple arduino checkpost project, for a friend. Original code is from @SimpleCircuits, where I reposted and relicensed with permission.&lt;/p&gt;&#xA;&lt;p&gt;I fixed up the code and helped out with setting it up&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sounddrill31/Checkpost-Arduino&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Projects</title>
       <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/</guid>
-      <description>I have created, contributed to and participated in many small projects. Here are some projects I&amp;rsquo;m proud of:&#xA;Crave AOSP Builder: Build Full Android ROMs - With Github Actions(Powered by Crave.io) Android is usually very big - 250 to 450GB worth of source code, needs 64GB of memory for seamless compilation, etc. While not everyone has those resources, Crave.io provides build systems to improve this, allowing anyone to learn android building.</description>
+      <description>&lt;p&gt;I have created, contributed to and participated in many small projects. Here are some projects I&amp;rsquo;m proud of:&lt;/p&gt;&#xA;&lt;p&gt;{{ range where .Site.Pages &amp;ldquo;Type&amp;rdquo; &amp;ldquo;post&amp;rdquo; }}&#xA;{{ if in .Params.categories &amp;ldquo;projects&amp;rdquo; }}&#xA;* [{{ .Title }}]({{ .Permalink }})&#xA;{{ end }}&#xA;{{ end }}&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Super Mario 64 - ps2 (Fork)</title>
+      <link>http://localhost:1313/posts/sm64-ps2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sm64-ps2/</guid>
+      <description>&lt;p&gt;This project aims to port Super Mario 64 to the PlayStation 2, after it was decompiled.&lt;/p&gt;&#xA;&lt;p&gt;For a while, it refused to work on recent sdk versions on real hardware, despite improving performance.&lt;/p&gt;&#xA;&lt;p&gt;Made a few tweaks as suggested by @metchebe and @xdccrlz &lt;a href=&#34;https://github.com/fgsfdsfgs/sm64-port/issues/72#issuecomment-1265325542&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; and maintained it for a while. Also made a helper script to package it into an iso for easy OpenPS2Loader use!&lt;/p&gt;&#xA;&lt;p&gt;The upstream repo seems to have fixed this issue, but when I tried it, my save got wiped :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Web Dos Experiments</title>
+      <link>http://localhost:1313/posts/web-dos-exp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/web-dos-exp/</guid>
+      <description>&lt;p&gt;Turbo C++ is quite widely used in the academic side in India, for some weird reason. I used JS-DOS&amp;rsquo;s &lt;a href=&#34;https://dos.zone/studio-v8&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bundle Creation tool&lt;/a&gt; and packaged @AvinashReddy3108&amp;rsquo;s &lt;a href=&#34;TurboCPP4Linux&#34; &gt;TurboCPP4Linux&lt;/a&gt; with it to make a simple web wrapper for it&lt;/p&gt;&#xA;&lt;p&gt;This is only a proof of concept and it&amp;rsquo;s not very usable because quotes don&amp;rsquo;t work on firefox/edge&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sounddrill31.github.io/TurboCPP-Web&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sounddrill31/TurboCPP-Web&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Also made a similar one for Norton Editor Web:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://sounddrill31.github.io/NortonEditor-Web/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/sounddrill31/NortonEditor-Web&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Also made a similar one for Costa GUI Web:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
