@@ -1,6 +1,6 @@
 ---
 title: "Super Mario 64 - ps2 (Fork)"
-date: 2024-09-03
+date: 2023-01-22
 tags: ["ps2", "game", "mario"]
 categories: ["projects", "games"]
 series: ["Projects"]

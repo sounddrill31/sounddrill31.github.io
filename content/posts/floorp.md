@@ -1,6 +1,6 @@
 ---
 title: "Floorp OBS Workflow"
-date: 2024-09-03
+date: 2024-04-08
 tags: ["suse", "floorp", "github-actions"]
 categories: ["projects", "packages"]
 series: ["Projects"]
