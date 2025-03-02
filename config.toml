@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
+pagination.pagerSize = 20
 
 [markup.highlight]
 style = "github-light"
@@ -64,7 +64,7 @@ style = "github-light"
 [[menu.main]]
 name = "Projects"
 weight = 2
-url = "projects/"
+url = "posts/"
 
 [[menu.main]]
 name = "Contact me"
