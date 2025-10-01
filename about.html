@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about.sh - Souhrud Reddy</title>
+    <meta name="description" content="Deep dive into Souhrud Reddy's journey through tech, education, and community building">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ["JetBrains Mono", "Fira Code", "Courier New", "monospace"],
+                    },
+                    animation: {
+                        blink: "blink 1s step-end infinite",
+                        scanline: "scanline 8s linear infinite",
+                    },
+                    keyframes: {
+                        blink: {
+                            "0%, 50%": { opacity: "1" },
+                            "51%, 100%": { opacity: "0" },
+                        },
+                        scanline: {
+                            "0%": { transform: "translateY(-100%)" },
+                            "100%": { transform: "translateY(100%)" },
+                        },
+                    },
+                },
+            },
+        };
+    </script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="terminal-scanline min-h-screen p-4 md:p-8">
+    <div class="max-w-6xl mx-auto">
+        <!-- Header -->
+        <header class="mb-8">
+            <div class="crt-effect mb-4">
+                <pre class="text-xs md:text-sm">
+sounddrill31@localhost:~$ cat about.txt
+                </pre>
+            </div>
+            
+            <nav class="flex flex-wrap gap-4 mb-6 text-sm">
+                <a href="index.html" class="link-hover px-2 py-1 border border-green-500">[HOME]</a>
+                <a href="#journey" class="link-hover px-2 py-1 border border-green-500">[JOURNEY]</a>
+                <a href="#infrastructure" class="link-hover px-2 py-1 border border-green-500">[INFRA]</a>
+                <a href="#work" class="link-hover px-2 py-1 border border-green-500">[WORK]</a>
+                <a href="#community" class="link-hover px-2 py-1 border border-green-500">[COMMUNITY]</a>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="mb-12 border-2 border-green-500 p-6">
+            <h1 class="text-3xl mb-4">ABOUT.SH</h1>
+            <p class="comment mb-4">Documentation of a developer's journey through code, community, and curiosity</p>
+            <div class="space-y-2 text-sm">
+                <p class="prompt">Name: Souhrud Reddy</p>
+                <p class="prompt">Handle: sounddrill31</p>
+                <p class="prompt">Location: Bangalore, Karnataka, India</p>
+                <p class="prompt">Role: Aspiring Developer, Community Builder, OSS Advocate</p>
+                <p class="prompt">Philosophy: Build in public, contribute to commons, experiment fearlessly</p>
+            </div>
+        </section>
+
+        <!-- Educational Journey -->
+        <section id="journey" class="mb-12">
+            <h2 class="text-2xl mb-6 border-b-2 border-green-500 pb-2">EDUCATIONAL_JOURNEY.log</h2>
+            <div class="space-y-4 text-sm">
+                <div class="timeline-item">
+                    <span class="text-green-400">Early Years</span>
+                    <p class="ml-12 mt-2">Pursued CBSE curriculum, building foundational knowledge and curiosity about how things work.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <span class="text-green-400">Grade 7 - Migration</span>
+                    <p class="ml-12 mt-2">Moved to Bengaluru, transitioned from CBSE to ICSE. The tech capital of India became home, sparking deeper interest in technology ecosystems.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <span class="text-green-400">Grade 10 & 12</span>
+                    <p class="ml-12 mt-2">Completed through NIOS (National Institute of Open Schooling), gaining flexibility to explore technical interests beyond traditional curriculum.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <span class="text-green-400">Higher Education (Current)</span>
+                    <div class="ml-12 mt-2 space-y-2">
+                        <p class="prompt">BCA @ Gopalan College of Commerce</p>
+                        <p class="text-xs opacity-80">Building formal computer science foundations while maintaining hands-on CS project work.</p>
+                        
+                        <p class="prompt mt-4">BS Electronics Systems (Diploma Level) @ IIT Madras</p>
+                        <p class="text-xs opacity-80">Exploring the hardware side of computing - understanding the physical layer that makes software possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Infrastructure Maintenance -->
+        <section id="infrastructure" class="mb-12 border-2 border-green-500 p-6">
+            <h2 class="text-2xl mb-4">INFRASTRUCTURE.status</h2>
+            <p class="comment mb-6">Running and maintaining various services for communities and personal exploration</p>
+            
+            <div class="space-y-6 text-sm">
+                <div>
+                    <h3 class="text-green-400 mb-3">MAINTAINED_SERVICES [●]</h3>
+                    <div class="space-y-3 ml-4">
+                        <div>
+                            <p class="prompt">Xonotic Server</p>
+                            <p class="text-xs opacity-80 ml-6">Game server with Discord chat bridge for Indian OSS gaming community. Real-time synchronization using MelanoBot and MatterBridge.</p>
+                        </div>
+                        
+                        <div>
+                            <p class="prompt">Personal HestiaCP Server</p>
+                            <p class="text-xs opacity-80 ml-6">Self-hosted control panel managing web services, domains, and development environments.</p>
+                        </div>
+                        
+                        <div>
+                            <p class="prompt">Discord ↔ Telegram Bridge</p>
+                            <p class="text-xs opacity-80 ml-6">Connecting Crave.io Discord with ROM Builders Telegram using MatterBridge. Enables cross-platform community communication.</p>
+                        </div>
+                        
+                        <div>
+                            <p class="prompt">Floorp Browser Package (openSUSE OBS)</p>
+                            <p class="text-xs opacity-80 ml-6">Community-maintained package with automated updates. Keeping openSUSE users on the latest Floorp releases.</p>
+                        </div>
+                        
+                        <div>
+                            <p class="prompt">Pixelpulse2 AppImage & Soar Package</p>
+                            <p class="text-xs opacity-80 ml-6">Unofficial builds for oscilloscope software. Bridging hardware testing tools to wider audiences.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-red-400 mb-3">ARCHIVED_SERVICES [○]</h3>
+                    <div class="space-y-2 ml-4 opacity-50">
+                        <p class="text-xs">✗ Minecraft Server (Chat bridged to Discord) - Archived November 2024</p>
+                        <p class="text-xs">✗ social.azcyouth.in - Archived November 2024</p>
+                        <p class="text-xs ml-6">Lessons learned: Infrastructure evolution requires periodic pruning to focus resources effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work & Projects -->
+        <section id="work" class="mb-12">
+            <h2 class="text-2xl mb-6 border-b-2 border-green-500 pb-2">PROJECTS.md</h2>
+            <p class="comment mb-6">Open source contributions spanning hardware, software, and community tooling</p>
+            
+            <div class="space-y-6 text-sm">
+                <div class="border-l-2 border-green-500 pl-4">
+                    <h3 class="text-green-400 mb-3">Hardware & Embedded</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <a href="https://github.com/pkgforge-dev/Pixelpulse2-AppImage" target="_blank" class="link-hover font-bold">→ Pixelpulse2-AppImage</a>
+                            <p class="text-xs opacity-80 mt-1">Making Analog Devices' oscilloscope software universally accessible for linux users through AppImage packaging.</p>
+                        </div>
+                        
+                        <div>
+                            <a href="https://github.com/sounddrill31/Checkpost-Arduino" target="_blank" class="link-hover font-bold">→ Checkpost-Arduino</a>
+                            <p class="text-xs opacity-80 mt-1">Example Arduino-based checkpoint system.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border-l-2 border-green-500 pl-4">
+                    <h3 class="text-green-400 mb-3">Android Development</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <a href="https://github.com/sounddrill31/crave_aosp_builder" target="_blank" class="link-hover font-bold">→ Crave AOSP Builder</a>
+                            <p class="text-xs opacity-80 mt-1">Streamlining Android ROM compilation workflows. Helping developers build custom Android flavors more efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="border-l-2 border-green-500 pl-4">
+                    <h3 class="text-green-400 mb-3">Browser & Desktop Software</h3>
+                    <div class="space-y-3">
+                        <div>
+                            <a href="https://github.com/sounddrill31/floorp-browser-obs" target="_blank" class="link-hover font-bold">→ Floorp Browser OBS Package</a>
+                            <p class="text-xs opacity-80 mt-1">Automated packaging system for Floorp on openSUSE's Open Build Service. Self-updating community package.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-xs opacity-60 mt-4">For complete project history: <a href="/projects" class="link-hover">Click Here to Go to Projects Site</a></p>
+            </div>
+        </section>
+
+        <!-- Community Presence -->
+        <section id="community" class="mb-12 border-2 border-green-500 p-6">
+            <h2 class="text-2xl mb-4">COMMUNITY_IMPACT.log</h2>
+            <p class="comment mb-6">Building bridges, answering questions, creating documentation</p>
+            
+            <div class="space-y-6 text-sm">
+                <div>
+                    <h3 class="text-green-400 mb-2">Crave.io Ecosystem</h3>
+                    <p class="mb-2">Deep involvement in Android ROM building community:</p>
+                    <ul class="list-none space-y-1 ml-4">
+                        <li class="prompt">Developed community tools and utilities</li>
+                        <li class="prompt">Created comprehensive documentation for newcomers</li>
+                        <li class="prompt">Maintain Discord ↔ Telegram bridge connecting Crave.io with ROM Builders</li>
+                        <li class="prompt">Co-created Fosson.top (formerly OpenDroid) - onboarding platform for new ROM developers</li>
+                    </ul>
+                    <p class="text-xs opacity-60 mt-2">Impact: Lowered barriers to entry for aspiring ROM developers</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-green-400 mb-2">NIOS Students Community</h3>
+                    <p class="mb-2">Supporting distance education students:</p>
+                    <ul class="list-none space-y-1 ml-4">
+                        <li class="prompt">Founded unofficial Discord server for peer support</li>
+                        <li class="prompt">Built helper website for navigating NIOS processes</li>
+                        <li class="prompt">Helped Centralize fragmented information into accessible resources</li>
+                        <li class="prompt">Handed over to even more capable members who unified many communities spread across multiple platforms</li>
+                    </ul>
+                    <p class="text-xs opacity-60 mt-2">Impact: Created support network for underserved student demographic</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-green-400 mb-2">XDA Developers</h3>
+                    <p class="mb-2">Contributing to world's largest Android development forum:</p>
+                    <ul class="list-none space-y-1 ml-4">
+                        <li class="prompt">Achieved "Legendary" role (automated, based on community interactions)</li>
+                        <li class="prompt">Earned "Trusted" role on Discord (manually granted by moderation team)</li>
+                        <li class="prompt">Dabbled in device unbricking and custom ROM installation guidance</li>
+                        <li class="prompt">At one point, active in development (and memes) channels, bridging gaps between users and developers</li>
+                    </ul>
+                    <p class="text-xs opacity-60 mt-2">Impact: Helped hundreds of users recover devices and explore Android customization</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-green-400 mb-2">Xonotic India - "The Server Bay"</h3>
+                    <p class="mb-2">Fostering open source gaming community:</p>
+                    <ul class="list-none space-y-1 ml-4">
+                        <li class="prompt">Founded Discord server using MelanoBot and MatterBridge chat bridges</li>
+                        <li class="prompt">Maintain Xonotic game server for Indian players</li>
+                        <li class="prompt">Gather OSS gaming enthusiasts in regional community</li>
+                    </ul>
+                    <p class="text-xs opacity-60 mt-2">Impact: Created hub for FOSS gaming advocacy in India</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-green-400 mb-2">The International Otaku Discord</h3>
+                    <p class="mb-2">Community moderation and infrastructure:</p>
+                    <ul class="list-none space-y-1 ml-4">
+                        <li class="prompt">Overhauled server structure and moderation systems</li>
+                        <li class="prompt">Implemented improved community guidelines and bot systems</li>
+                    </ul>
+                    <p class="text-xs opacity-60 mt-2">Impact: Improved community health and member experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tomorrow's Gadget Lab -->
+        <section class="mb-12 border-2 border-green-500 p-6 bg-green-900 bg-opacity-5">
+            <h2 class="text-2xl mb-4">TOMORROW'S_GADGET_LAB.info</h2>
+            <div class="space-y-4 text-sm">
+                <p class="prompt">Personal research lab exploring the intersection of hardware, software, and human systems.</p>
+                
+                <div class="border-l-2 border-green-400 pl-4">
+                    <p class="text-green-400 mb-2">Mission Statement</p>
+                    <p class="text-xs">An open source-focused laboratory experimenting with bleeding-edge technology while maintaining ethical, accessible, and community-driven principles... all run from the comfort of my home :3</p>
+                </div>
+                
+                <div class="border-l-2 border-green-400 pl-4">
+                    <p class="text-green-400 mb-2">Core Philosophy</p>
+                    <ul class="list-none space-y-1 text-xs">
+                        <li class="prompt">Hardware is not a black box - understand it</li>
+                        <li class="prompt">Software should respect user freedom</li>
+                        <li class="prompt">Communities make technology meaningful</li>
+                        <li class="prompt">Experiment fearlessly, document thoroughly</li>
+                    </ul>
+                </div>
+                
+                <a href="https://sounddrill31.github.io/tgl/" target="_blank" class="inline-block mt-4 px-4 py-2 border border-green-400 link-hover">
+                    [EXPLORE_TGL] →
+                </a>
+            </div>
+        </section>
+
+        <!-- Philosophy & Approach -->
+        <section class="mb-12">
+            <h2 class="text-2xl mb-6 border-b-2 border-green-500 pb-2">PHILOSOPHY.txt</h2>
+            <div class="space-y-4 text-sm">
+                <div class="border-l-4 border-green-500 pl-4">
+                    <p class="text-green-400 mb-2">On Open Source</p>
+                    <p class="text-xs">"Software freedom isn't just about code: it's about knowledge sharing, community building, and democratizing access to technology. Every contribution, no matter how small, strengthens the commons."</p>
+                </div>
+                
+                <div class="border-l-4 border-green-500 pl-4">
+                    <p class="text-green-400 mb-2">On Community</p>
+                    <p class="text-xs">"Communities form around shared curiosity, not just shared problems. The best documentation answers questions people haven't asked yet. The best communities make asking safe."</p>
+                </div>
+                
+                <div class="border-l-4 border-green-500 pl-4">
+                    <p class="text-green-400 mb-2">On Learning</p>
+                    <p class="text-xs">"Break things. Fix them. Document what you learned. Share with others. Repeat. Formal education provides structure, but real learning happens in the gaps between theory and practice."</p>
+                </div>
+                
+                <div class="border-l-4 border-green-500 pl-4">
+                    <p class="text-green-400 mb-2">On Infrastructure</p>
+                    <p class="text-xs">"Running your own servers teaches you more than any tutorial. Maintaining them teaches you even more. Knowing when to shut them down teaches you the most."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About This Site -->
+        <section class="mb-12 border-2 border-green-500 p-6">
+            <h2 class="text-2xl mb-4">META.info</h2>
+            <div class="space-y-2 text-sm">
+                <p class="prompt">Design Philosophy: Terminal aesthetic meets a fun interface</p>
+                <p class="prompt">Technology: Pure HTML, CSS, and Tailwind</p>
+                <p class="prompt">Tracking: None from my end. No analytics, no cookies, no surveillance capitalism.</p>
+                <p class="prompt">Accessibility: Monospace fonts, high contrast, semantic HTML</p>
+                <p class="prompt">Inspiration: Classic hacker culture, BBS aesthetics, command-line interfaces</p>
+                <p class="prompt">Previous Version: Hugo + Coder theme on GitHub Pages</p>
+                <p class="comment mt-4">Because sometimes the best web design looks like a terminal</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t-2 border-green-500 pt-6 text-sm opacity-80">
+            <p class="prompt mb-2">© 2023 - 2025 Souhrud Reddy</p>
+            <p class="prompt">sounddrill31@localhost ~ $ _</p>
+            <div class="mt-4 space-y-1 text-xs opacity-60">
+                <p class="comment">Last updated: 2025</p>
+                <p class="comment">This page is a living document</p>
+                <p class="comment">Like life, it evolves with experience</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
