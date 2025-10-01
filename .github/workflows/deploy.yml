@@ -23,7 +23,7 @@ jobs:
       - name: Run prepare-deploy.sh
         run: |
           export PATH=$PATH:$(go env GOPATH)/bin
-          ./prepare-deploy.sh
+          bash prepare-deploy.sh
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
