@@ -114,3 +114,13 @@ body {
         padding: 0 0.5em; /* Reduce padding */
     }
 }
+
+/* Rounded corners for cards and borders */
+.border,
+.border-2,
+.border-l-4,
+.border-l-2,
+.border-t-2,
+.border-b-2 {
+    border-radius: 4px;
+}
