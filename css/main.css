@@ -124,3 +124,12 @@ body {
 .border-b-2 {
     border-radius: 4px;
 }
+
+/* Markdown-style heading enhancement */
+.text-green-400.font-bold {
+    display: block;
+    font-size: 1.15em;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    margin-bottom: 0.75em;
+}
