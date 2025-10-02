@@ -1,0 +1,90 @@
+/* Scroll Progress Indicator */
+.scroll-indicator {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.scroll-dot {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #39ff14;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.scroll-dot:hover {
+    background: rgba(57, 255, 20, 0.3);
+    transform: scale(1.3);
+}
+
+.scroll-dot.active {
+    background: #39ff14;
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.8);
+}
+
+.scroll-label {
+    position: absolute;
+    right: 20px;
+    white-space: nowrap;
+    font-size: 11px;
+    color: #39ff14;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-shadow: 0 0 5px rgba(57, 255, 20, 0.5);
+}
+
+.scroll-dot:hover .scroll-label {
+    opacity: 1;
+}
+
+/* Progress bar */
+.progress-track {
+    position: absolute;
+    right: 4px;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background: rgba(57, 255, 20, 0.2);
+}
+
+.progress-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #39ff14;
+    transition: height 0.1s ease;
+    box-shadow: 0 0 5px rgba(57, 255, 20, 0.5);
+}
+
+/* Hide on small screens */
+@media (max-width: 768px) {
+    .scroll-indicator {
+        right: 8px;
+        gap: 6px;
+    }
+    
+    .scroll-dot {
+        width: 8px;
+        height: 8px;
+        border-width: 1px;
+    }
+    
+    .scroll-label {
+        display: none; /* Hide labels on mobile */
+    }
+    
+    .progress-track {
+        width: 2px;
+        right: 2px;
+    }
+}

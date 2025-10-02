@@ -33,6 +33,20 @@
         };
     </script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/scroll-indicator.css">
+    <style>
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem !important; }
+            h2 { font-size: 1.5rem !important; }
+            h3 { font-size: 1.25rem !important; }
+            .text-4xl { font-size: 2rem !important; }
+            .text-3xl { font-size: 1.5rem !important; }
+            .text-2xl { font-size: 1.25rem !important; }
+            .text-xl { font-size: 1.125rem !important; }
+            .text-lg { font-size: 1rem !important; }
+            .text-base { font-size: 0.9rem !important; }
+        }
+    </style>
 </head>
 <body class="terminal-scanline min-h-screen p-4 md:p-8">
     <div class="max-w-6xl mx-auto">
@@ -264,5 +278,16 @@ sounddrill31@localhost:~$ cat about.txt
             </div>
         </footer>
     </div>
+    
+    <script src="js/scroll-indicator.js"></script>
+    <script>
+        // Initialize scroll indicator for about page
+        new ScrollIndicator([
+            { id: 'top', label: 'TOP' },
+            { id: 'journey', label: 'JOURNEY' },
+            { id: 'infrastructure', label: 'INFRA' },
+            { id: 'community', label: 'COMMUNITY' }
+        ]);
+    </script>
 </body>
 </html>

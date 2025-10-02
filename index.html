@@ -33,6 +33,18 @@
         };
     </script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/scroll-indicator.css">
+    <style>
+        @media (max-width: 768px) {
+            h1 { font-size: 1.75rem !important; }
+            h2 { font-size: 1.25rem !important; }
+            .text-4xl { font-size: 1.75rem !important; }
+            .text-2xl { font-size: 1.25rem !important; }
+            .text-lg { font-size: 1rem !important; }
+            .text-base { font-size: 0.9rem !important; }
+            .text-sm { font-size: 0.85rem !important; }
+        }
+    </style>
 </head>
 <body class="min-h-screen p-4 md:p-8">
     <div class="max-w-6xl mx-auto">
@@ -157,5 +169,15 @@ sounddrill31@localhost:~$ █
             <p class="text-xs mt-4 opacity-60">This website uses no tracking, no cookies, just pure HTML & TailwindCSS</p>
         </footer>
     </div>
+    
+    <script src="js/scroll-indicator.js"></script>
+    <script>
+        // Initialize scroll indicator for home page
+        new ScrollIndicator([
+            { id: 'top', label: 'TOP' },
+            { id: 'about', label: 'ABOUT' },
+            { id: 'tgl', label: 'TGL' }
+        ]);
+    </script>
 </body>
 </html>

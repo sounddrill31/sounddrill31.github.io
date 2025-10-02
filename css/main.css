@@ -105,3 +105,12 @@ body {
 .icon {
     filter: invert(1);
 }
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+    body {
+        font-size: 1em; /* Reduce from 1.15em */
+        line-height: 1.6; /* Reduce from 1.7 */
+        padding: 0 0.5em; /* Reduce padding */
+    }
+}
