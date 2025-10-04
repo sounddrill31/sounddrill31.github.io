@@ -200,12 +200,6 @@
     <div class="fixed bottom-8 left-8 font-mono text-sm text-green-400 bg-black bg-opacity-80 rounded-lg px-4 py-2 shadow border border-green-800">
         <span id="timer">0s</span> / <span id="section">LOADING</span>
     </div>
-    
-    <!-- Music credit -->
-    <div class="fixed bottom-8 right-8 font-mono text-xs text-gray-500 bg-black bg-opacity-60 rounded-lg px-3 py-2 shadow border border-gray-700 opacity-30 hover:opacity-80 transition-opacity">
-        Music by <a href="https://pixabay.com/users/litesaturation-17654080/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15212" class="link-hover text-gray-400" target="_blank">LiteSaturation</a><br>from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=15212" class="link-hover text-gray-400" target="_blank">Pixabay</a>
-    </div>
-
     <script>
         let bgMusic;
         let isPlaying = false;
@@ -213,15 +207,15 @@
         let animationFrame;
         
         const sections = [
-            { id: 'hero', start: 0, end: 3, label: 'INIT' },
-            { id: 'open-source', start: 3, end: 6, label: 'OPEN_SOURCE' },
-            { id: 'community', start: 6, end: 9, label: 'COMMUNITY' },
-            { id: 'infrastructure', start: 9, end: 12, label: 'INFRA' },
-            { id: 'learning', start: 12, end: 15, label: 'LEARNING' },
-            { id: 'bridges', start: 15, end: 17, label: 'BRIDGES' },
-            { id: 'systems', start: 17, end: 19, label: 'SYSTEMS' },
-            { id: 'pruning', start: 19, end: 22, label: 'PRUNING' },
-            { id: 'forward', start: 22, end: 26, label: 'FORWARD' }
+            { id: 'hero', start: 0, end: 2, label: 'INIT' },
+            { id: 'open-source', start: 2, end: 5, label: 'OPEN_SOURCE' },
+            { id: 'community', start: 5, end: 7, label: 'COMMUNITY' },
+            { id: 'infrastructure', start: 7, end: 10, label: 'INFRA' },
+            { id: 'learning', start: 10, end: 12, label: 'LEARNING' },
+            { id: 'bridges', start: 12, end: 14, label: 'BRIDGES' },
+            { id: 'systems', start: 14, end: 16, label: 'SYSTEMS' },
+            { id: 'pruning', start: 16, end: 19, label: 'PRUNING' },
+            { id: 'forward', start: 19, end: 26, label: 'FORWARD' }
         ];
 
         async function initMusic() {
