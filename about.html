@@ -7,6 +7,13 @@
     <meta name="description" content="Deep dive into Souhrud Reddy's journey through tech, education, and community building">
     
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Background Music -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="assets/radiant-glow-background-piano-instrumental-373865.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
     <script>
         tailwind.config = {
             theme: {
@@ -58,11 +65,25 @@ sounddrill31@localhost:~$ preview about/full_bio.md
                 </pre>
             </div>
             
-            <nav class="flex flex-wrap gap-4 mb-6 text-base">
+            <nav class="flex flex-wrap gap-4 mb-6 text-base items-center">
                 <a href="index.html" class="link-hover px-3 py-2 border border-green-500">[HOME]</a>
+                <a href="why.html" class="link-hover px-3 py-2 border border-green-500 inline-flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
+                        <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"></polygon>
+                    </svg>
+                    [WHY]
+                </a>
                 <a href="#journey" class="link-hover px-3 py-2 border border-green-500">[JOURNEY]</a>
                 <a href="#infrastructure" class="link-hover px-3 py-2 border border-green-500">[INFRA]</a>
                 <a href="#community" class="link-hover px-3 py-2 border border-green-500">[COMMUNITY]</a>
+                <button id="startMusic" class="px-3 py-2 bg-green-900 bg-opacity-20 border border-green-600 text-green-400 hover:bg-green-900 hover:bg-opacity-40 transition-all text-sm font-mono flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    </svg>
+                    <span id="musicBtnText">[MUSIC]</span>
+                </button>
             </nav>
         </header>
 
@@ -75,32 +96,13 @@ sounddrill31@localhost:~$ preview about/full_bio.md
                 <p><span class="text-green-400">Handle:</span> sounddrill31</p>
                 <p><span class="text-green-400">Location:</span> Bangalore, Karnataka, India</p>
                 <p><span class="text-green-400">Role:</span> Aspiring Developer, Community Builder, OSS Advocate</p>
-                <p><span class="text-green-400">Philosophy:</span> Build in public, contribute to commons, experiment fearlessly</p>
-            </div>
-        </section>
-        <!-- Philosophy & Approach -->
-        <section class="mb-12">
-            <h2 class="text-3xl mb-8 border-b-2 border-green-500 pb-3 text-white">PHILOSOPHY.txt</h2>
-            <div class="space-y-8">
-                <div class="border-l-4 border-green-500 pl-6 py-3">
-                    <p class="text-green-400 mb-4 text-xl font-bold">On Open Source</p>
-                    <p class="text-base leading-loose text-gray-200">"Software freedom isn't just about code: it's about knowledge sharing, community building, and democratizing access to technology. Every contribution, no matter how small, strengthens the commons."</p>
-                </div>
-                
-                <div class="border-l-4 border-green-500 pl-6 py-3">
-                    <p class="text-green-400 mb-4 text-xl font-bold">On Community</p>
-                    <p class="text-base leading-loose text-gray-200">"Communities form around shared curiosity, not just shared problems. The best documentation answers questions people haven't asked yet. The best communities make asking safe."</p>
-                </div>
-                
-                <div class="border-l-4 border-green-500 pl-6 py-3">
-                    <p class="text-green-400 mb-4 text-xl font-bold">On Learning</p>
-                    <p class="text-base leading-loose text-gray-200">"Break things. Fix them. Document what you learned. Share with others. Repeat. Formal education provides structure, but real learning happens in the gaps between theory and practice."</p>
-                </div>
-                
-                <div class="border-l-4 border-green-500 pl-6 py-3">
-                    <p class="text-green-400 mb-4 text-xl font-bold">On Infrastructure</p>
-                    <p class="text-base leading-loose text-gray-200">"Running your own servers teaches you more than any tutorial. Maintaining them teaches you even more. Knowing when to shut them down teaches you the most."</p>
-                </div>
+                <p><span class="text-green-400">Philosophy:</span> Build in public, contribute to commons, experiment fearlessly → <a href="why.html" class="link-hover inline-flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="2" ry="2"></rect>
+                        <polygon points="10 8 16 12 10 16 10 8" fill="currentColor"></polygon>
+                    </svg>
+                    [WHY?]
+                </a></p>
             </div>
         </section>
 
@@ -276,6 +278,7 @@ sounddrill31@localhost:~$ preview about/full_bio.md
                 <p class="comment">Last updated: 2025</p>
                 <p class="comment">This page is a living document</p>
                 <p class="comment">Like life, it evolves with experience</p>
+                <p class="comment mt-4">Music by <a href="https://pixabay.com/users/litesaturation-17654080/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=373865" class="link-hover" target="_blank">LiteSaturation</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=373865" class="link-hover" target="_blank">Pixabay</a></p>
             </div>
         </footer>
     </div>
@@ -289,6 +292,32 @@ sounddrill31@localhost:~$ preview about/full_bio.md
             { id: 'infrastructure', label: 'INFRA' },
             { id: 'community', label: 'COMMUNITY' }
         ]);
+        
+        // Ambient music using HTML5 Audio
+        const startBtn = document.getElementById('startMusic');
+        const btnText = document.getElementById('musicBtnText');
+        if (startBtn) {
+            const bgMusic = document.getElementById('bgMusic');
+            bgMusic.volume = 0.5;
+            let isPlaying = false;
+            
+            startBtn.addEventListener('click', async () => {
+                try {
+                    if (isPlaying) {
+                        bgMusic.pause();
+                        btnText.textContent = '[MUSIC]';
+                        isPlaying = false;
+                    } else {
+                        await bgMusic.play();
+                        btnText.textContent = '[PLAYING]';
+                        isPlaying = true;
+                    }
+                } catch (e) {
+                    console.log('Audio:', e);
+                    btnText.textContent = '[UNAVAILABLE]';
+                }
+            });
+        }
     </script>
 </body>
 </html>
